@@ -11,3 +11,7 @@ print("Last character in string = "+str[-1])
 #slicing
 print(str[: 3])
 print(str[1 : 4])
+
+#reversing string
+print(str[: :-1])
+
