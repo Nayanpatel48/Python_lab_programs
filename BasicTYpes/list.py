@@ -77,3 +77,64 @@ print(l14)
 #matrix 2*2
 matrix = [[[2,3][4,5]]][[6,7][8,9]]
 print(matrix)
+
+#l1 = list [initial : End] ie,1:4
+lst = [78,89,90,56]
+lst4 = lst.index(0,3)
+print(lst4)
+
+#crate a list from l1 and l2 which contains 8 values
+list1 = [1,3,7,9,13,15]#odd
+list2 = [2,4,6,8,10,30]#odd
+list3 = []
+list3 = list1.extend(list2)
+print(list3)
+
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print("Try programiz.pro")
+list1 = [1,3,7,9,13,15]
+list2 = [2,4,8,80,86]
+list3 = []
+sublist1 = list1[0:5]
+sublist2 = list2[0:5]
+list4 = sublist1+sublist2
+print(list4)
+
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print("Try programiz.pro")
+list1 = [1,3,7,9,13,15]
+list2 = [2,4,8,80,86]
+list3 = []
+sublist1 = list1[0:5]
+sublist2 = list2[0:5]
+list4 = sublist1+sublist2
+print(list4)
+
+#prime number extraction from list
+list5 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
+
+def evenChecker (number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+
+print(evenChecker(3))
+
+#prime number
+
+def primeNumber(number):
+    if number < 0 :
+        number = -number
+    flag = True
+    for i in range(2,number):
+        if number % i == 0:
+            flag = False
+    if flag == True :
+        print('true')
+    else:
+        print('false')
+
+print(primeNumber(111))
